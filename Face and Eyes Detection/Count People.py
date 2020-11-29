@@ -11,6 +11,7 @@ faceCascade = cv2.CascadeClassifier(face_cascPath)
 eyeCascade = cv2.CascadeClassifier(eye_cascPath)
 log.basicConfig(filename='CountPeople.log',level=log.INFO)
 
+#By FIKO
 #cv2.VideoCapture(0) user for camera in computer
 #cv2.VideoCapture(1) user for webcam(USB) in computer
 video_capture = cv2.VideoCapture(0)
